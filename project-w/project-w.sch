@@ -1,0 +1,356 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:project-w-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R R1
+U 1 1 5A65E3EE
+P 3000 3250
+F 0 "R1" V 3080 3250 50  0000 C CNN
+F 1 "1K" V 3000 3250 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2930 3250 50  0001 C CNN
+F 3 "" H 3000 3250 50  0001 C CNN
+	1    3000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 5A65E441
+P 3550 2900
+F 0 "R2" V 3630 2900 50  0000 C CNN
+F 1 "1K" V 3550 2900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 3480 2900 50  0001 C CNN
+F 3 "" H 3550 2900 50  0001 C CNN
+	1    3550 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R3
+U 1 1 5A65E48C
+P 7200 4950
+F 0 "R3" V 7280 4950 50  0000 C CNN
+F 1 "470R" V 7200 4950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7130 4950 50  0001 C CNN
+F 3 "" H 7200 4950 50  0001 C CNN
+	1    7200 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L CP C1
+U 1 1 5A65E56A
+P 3000 3800
+F 0 "C1" H 3025 3900 50  0000 L CNN
+F 1 "1uF" H 3025 3700 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 3038 3650 50  0001 C CNN
+F 3 "" H 3000 3800 50  0001 C CNN
+	1    3000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L NE555 U1
+U 1 1 5A65E5BD
+P 4200 3750
+F 0 "U1" H 3800 4100 50  0000 L CNN
+F 1 "NE555" H 4300 4100 50  0000 L CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 4200 3750 50  0001 C CNN
+F 3 "" H 4200 3750 50  0001 C CNN
+	1    4200 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4017 U2
+U 1 1 5A65E603
+P 5800 4100
+F 0 "U2" H 5700 3950 50  0000 C CNN
+F 1 "CD4017" H 5700 3800 50  0000 C CNN
+F 2 "Housings_DIP:DIP-16_W7.62mm" H 5800 4100 60  0001 C CNN
+F 3 "" H 5800 4100 60  0001 C CNN
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D1
+U 1 1 5A65E6A9
+P 6750 3550
+F 0 "D1" H 6750 3650 50  0000 C CNN
+F 1 "LED" H 6750 3450 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6750 3550 50  0001 C CNN
+F 3 "" H 6750 3550 50  0001 C CNN
+	1    6750 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D5
+U 1 1 5A65E7B7
+P 7150 3650
+F 0 "D5" H 7150 3750 50  0000 C CNN
+F 1 "LED" H 7150 3550 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7150 3650 50  0001 C CNN
+F 3 "" H 7150 3650 50  0001 C CNN
+	1    7150 3650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D8
+U 1 1 5A65E881
+P 7550 3750
+F 0 "D8" H 7550 3850 50  0000 C CNN
+F 1 "LED" H 7550 3650 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7550 3750 50  0001 C CNN
+F 3 "" H 7550 3750 50  0001 C CNN
+	1    7550 3750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 5A65E8C6
+P 6750 3850
+F 0 "D2" H 6750 3950 50  0000 C CNN
+F 1 "LED" H 6750 3750 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6750 3850 50  0001 C CNN
+F 3 "" H 6750 3850 50  0001 C CNN
+	1    6750 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D6
+U 1 1 5A65E914
+P 7150 3950
+F 0 "D6" H 7150 4050 50  0000 C CNN
+F 1 "LED" H 7150 3850 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7150 3950 50  0001 C CNN
+F 3 "" H 7150 3950 50  0001 C CNN
+	1    7150 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D9
+U 1 1 5A65E959
+P 7550 4050
+F 0 "D9" H 7550 4150 50  0000 C CNN
+F 1 "LED" H 7550 3950 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7550 4050 50  0001 C CNN
+F 3 "" H 7550 4050 50  0001 C CNN
+	1    7550 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D3
+U 1 1 5A65E9A5
+P 6750 4150
+F 0 "D3" H 6750 4250 50  0000 C CNN
+F 1 "LED" H 6750 4050 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6750 4150 50  0001 C CNN
+F 3 "" H 6750 4150 50  0001 C CNN
+	1    6750 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D7
+U 1 1 5A65E9F4
+P 7150 4250
+F 0 "D7" H 7150 4350 50  0000 C CNN
+F 1 "LED" H 7150 4150 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7150 4250 50  0001 C CNN
+F 3 "" H 7150 4250 50  0001 C CNN
+	1    7150 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D10
+U 1 1 5A65EA3C
+P 7550 4350
+F 0 "D10" H 7550 4450 50  0000 C CNN
+F 1 "LED" H 7550 4250 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 7550 4350 50  0001 C CNN
+F 3 "" H 7550 4350 50  0001 C CNN
+	1    7550 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED D4
+U 1 1 5A65EA8D
+P 6750 4450
+F 0 "D4" H 6750 4550 50  0000 C CNN
+F 1 "LED" H 6750 4350 50  0000 C CNN
+F 2 "LEDs:LED_D3.0mm" H 6750 4450 50  0001 C CNN
+F 3 "" H 6750 4450 50  0001 C CNN
+	1    6750 4450
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 6450 4650
+NoConn ~ 3700 3750
+Connection ~ 7900 4450
+Wire Wire Line
+	7900 4950 7350 4950
+Connection ~ 7900 3650
+Wire Wire Line
+	7300 3650 7900 3650
+Connection ~ 7900 3750
+Wire Wire Line
+	7700 3750 7900 3750
+Connection ~ 7900 3850
+Wire Wire Line
+	6900 3850 7900 3850
+Connection ~ 7900 3950
+Wire Wire Line
+	7300 3950 7900 3950
+Connection ~ 7900 4050
+Wire Wire Line
+	7700 4050 7900 4050
+Connection ~ 7900 4150
+Wire Wire Line
+	6900 4150 7900 4150
+Connection ~ 7900 4250
+Wire Wire Line
+	7300 4250 7900 4250
+Connection ~ 7900 4350
+Wire Wire Line
+	7700 4350 7900 4350
+Wire Wire Line
+	7900 4450 6900 4450
+Wire Wire Line
+	7900 3550 7900 4950
+Wire Wire Line
+	6900 3550 7900 3550
+Wire Wire Line
+	6450 4450 6600 4450
+Wire Wire Line
+	6450 4350 7400 4350
+Wire Wire Line
+	6450 4250 7000 4250
+Wire Wire Line
+	6450 4150 6600 4150
+Wire Wire Line
+	6450 4050 7400 4050
+Wire Wire Line
+	6450 3950 7000 3950
+Wire Wire Line
+	6450 3850 6600 3850
+Wire Wire Line
+	6450 3750 7400 3750
+Wire Wire Line
+	6450 3650 7000 3650
+Wire Wire Line
+	6450 3550 6600 3550
+Wire Wire Line
+	4700 3550 5150 3550
+Wire Wire Line
+	2150 4950 7050 4950
+Wire Wire Line
+	5150 3650 5150 3850
+Wire Wire Line
+	5150 3750 5050 3750
+Wire Wire Line
+	5050 3750 5050 4950
+Connection ~ 5050 4950
+Connection ~ 5150 3750
+Wire Wire Line
+	4200 4150 4600 4150
+Connection ~ 4600 4950
+Wire Wire Line
+	3000 3950 3000 4650
+Wire Wire Line
+	3000 4650 4600 4650
+Connection ~ 4600 4650
+Wire Wire Line
+	3000 3400 3000 3650
+Wire Wire Line
+	3000 3550 3700 3550
+Wire Wire Line
+	4700 3950 4700 4350
+Wire Wire Line
+	4700 4350 3550 4350
+Wire Wire Line
+	3550 4350 3550 3550
+Connection ~ 3550 3550
+Connection ~ 3000 3550
+Wire Wire Line
+	3400 2900 3000 2900
+Wire Wire Line
+	3000 2900 3000 3100
+Wire Wire Line
+	3250 2900 3250 3200
+Wire Wire Line
+	3250 3200 4800 3200
+Wire Wire Line
+	4800 3200 4800 3750
+Wire Wire Line
+	4800 3750 4700 3750
+Connection ~ 3250 2900
+Wire Wire Line
+	4200 2750 4200 3350
+Wire Wire Line
+	4200 2900 3700 2900
+Wire Wire Line
+	3700 3950 3650 3950
+Wire Wire Line
+	3650 3950 3650 3050
+Wire Wire Line
+	3650 3050 4200 3050
+Connection ~ 4200 3050
+Connection ~ 4200 2900
+$Comp
+L Battery_Cell BT1
+U 1 1 5A66093F
+P 2150 3600
+F 0 "BT1" H 2250 3700 50  0000 L CNN
+F 1 "Battery_Cell" H 2250 3600 50  0000 L CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" V 2150 3660 50  0001 C CNN
+F 3 "" V 2150 3660 50  0001 C CNN
+	1    2150 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2750 2150 2750
+Wire Wire Line
+	2150 2750 2150 3400
+Wire Wire Line
+	4600 4150 4600 4950
+Wire Wire Line
+	2150 4950 2150 3700
+$EndSCHEMATC
