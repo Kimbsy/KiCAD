@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dkimber/Tools/KiCAD/project-w/project-w.sch)
-    (date "Tue 23 Jan 2018 11:58:25 GMT")
+    (date "Tue 23 Jan 2018 15:08:30 GMT")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -113,7 +113,7 @@
       (tstamp 5A65EA8D))
     (comp (ref J1)
       (value USB_A)
-      (footprint Connectors_USB:USB_Micro-B_Molex-105017-0001)
+      (footprint Connectors_USB:USB_Micro-B_Molex_47346-0001)
       (libsource (lib conn) (part USB_A))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A67207D)))
@@ -216,14 +216,14 @@
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name Shield) (type passive)))))
   (libraries
+    (library (logical cmos4000)
+      (uri /usr/share/kicad/library/cmos4000.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
     (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical cmos4000)
-      (uri /usr/share/kicad/library/cmos4000.lib)))
+      (uri /usr/share/kicad/library/device.lib)))
   (nets
     (net (code 1) (name "Net-(D6-Pad2)")
       (node (ref U2) (pin 10))
