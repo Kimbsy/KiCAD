@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dkimber/Tools/KiCAD/project-w/project-w.sch)
-    (date "Tue 23 Jan 2018 11:47:33 GMT")
+    (date "Tue 23 Jan 2018 11:58:25 GMT")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -41,7 +41,7 @@
       (tstamp 5A65E56A))
     (comp (ref U1)
       (value NE555)
-      (footprint Housings_DIP:DIP-8_W7.62mm_Socket)
+      (footprint Housings_DIP:DIP-8_W7.62mm)
       (libsource (lib linear) (part NE555))
       (sheetpath (names /) (tstamps /))
       (tstamp 5A65E5BD))
@@ -216,12 +216,12 @@
         (pin (num 4) (name GND) (type power_in))
         (pin (num 5) (name Shield) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical linear)
       (uri /usr/share/kicad/library/linear.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical cmos4000)
       (uri /usr/share/kicad/library/cmos4000.lib)))
   (nets
