@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kimbsy/Projects/KiCAD/project-w/project-w.sch)
-    (date "Wed 16 May 2018 21:39:48 BST")
+    (date "Wed 13 Jun 2018 19:37:04 BST")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu16.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -28,7 +28,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 5A65E441))
     (comp (ref R3)
-      (value 470R)
+      (value 1K)
       (footprint Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))

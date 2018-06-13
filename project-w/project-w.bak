@@ -73,8 +73,8 @@ L R R3
 U 1 1 5A65E48C
 P 7200 4950
 F 0 "R3" V 7280 4950 50  0000 C CNN
-F 1 "470R" V 7200 4950 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7130 4950 50  0001 C CNN
+F 1 "1K" V 7200 4950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7130 4950 50  0001 C CNN
 F 3 "" H 7200 4950 50  0001 C CNN
 	1    7200 4950
 	0    1    1    0   
@@ -348,12 +348,12 @@ VDD
 Text Label 2150 3750 0    60   ~ 0
 VSS
 $Comp
-L Screw_Terminal_01x02 J?
+L Screw_Terminal_01x02 J1
 U 1 1 5AFC9767
 P 1950 2850
-F 0 "J?" H 1950 2950 50  0000 C CNN
+F 0 "J1" H 1950 2950 50  0000 C CNN
 F 1 "Screw_Terminal_01x02" H 1950 2650 50  0000 C CNN
-F 2 "" H 1950 2850 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm" H 1950 2850 50  0001 C CNN
 F 3 "" H 1950 2850 50  0001 C CNN
 	1    1950 2850
 	-1   0    0    1   
